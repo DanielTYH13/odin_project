@@ -1,0 +1,41 @@
+* { 
+    outline: 1px solid red;
+}
+
+body { 
+    display: flex;
+    flex-direction: column;
+}
+
+.title-text {
+    font-size: 3em;
+}
+
+.subtext {
+
+}
+
+.def-button {
+
+}
+
+.header { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75vw;
+}
+
+.column-flexbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.button { 
+    flex: auto;
+}

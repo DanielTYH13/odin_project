@@ -1,0 +1,23 @@
+#header-logo {
+    width: 25vw;
+    flex: 1 1 50%;
+}
+
+#header-link-one {
+    width: 25vw;
+    flex: 1 1 1;
+}
+
+#header-link-two {
+    width: 25vw;
+    flex: 1 1 1;
+}
+
+#header-link-three {
+    width: 25vw;
+    flex: 1 1 1;
+}
+
+.right { 
+    text-align: right;
+}
