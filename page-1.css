@@ -1,6 +1,8 @@
 #page-1 {
     display: flex;
     align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
 
 #page-1-text {
@@ -17,6 +19,17 @@
     margin: 1vw;
 }
 
-#page-1-text {
+#sign-up-button-1 {
+    background: #3B82F6;
+    color: white;
+    width: 7.5vw;
+    height: 4vh;
+    margin-top: 1vh;
+    border-radius: 5px;
+    border: none;
+}
 
+#header-logo {
+    font-weight: bold;
+    font-size: 1.25em;
 }

@@ -1,9 +1,17 @@
 #page-4 {
-    margin: 20vh;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    align-items: center;
 }
 
 #call-to-action {
     justify-content: space-around;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-right: 10vh;
+    padding-left: 10vh;
+    background-color: #3B82F6;
+    border-radius: 25px;
     width: 50vw;
 }
 
@@ -26,4 +34,8 @@
 }
 
 #sign-up-button-2 {
+    background-color: #3B82F6;
+    border-radius: 10px;
+    border: none;
+    outline: 2px solid white;
 }
