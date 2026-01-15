@@ -7,11 +7,13 @@
 
 #page-1-text {
     width: 75vw;
+    height: 35vh;
     margin: 15vh;
 }
 
 #landing-page-image {
     flex: 1 1 60%;
+    object-fit: cover;
 }
 
 #main-title { 
