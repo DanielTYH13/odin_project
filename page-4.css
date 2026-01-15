@@ -1,0 +1,29 @@
+#page-4 {
+    margin: 20vh;
+}
+
+#call-to-action {
+    justify-content: space-around;
+    width: 50vw;
+}
+
+#call-to-action-text {
+    flex: 1 1 80%;
+}
+
+#sign-up-button-2 {
+    flex: 1 1 20%;
+}
+
+#call-to-action-title {
+    text-align: left;
+    width: auto;
+}
+
+#call-to-action-subtext {
+    text-align: left;
+    width: auto;
+}
+
+#sign-up-button-2 {
+}

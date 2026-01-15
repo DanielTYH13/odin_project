@@ -4,6 +4,9 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="header-style.css">
         <link rel="stylesheet" href="page-1.css">
+        <link rel="stylesheet" href="page-2.css">
+        <link rel="stylesheet" href="page-3.css">
+        <link rel="stylesheet" href="page-4.css">
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
         <title>Landing Page Practice</title>
@@ -16,31 +19,71 @@
                 <a class="link right" id="header-link-two">Header Link Two</a>
                 <a class="link right" id="header-link-three">Header Link Three</a>
             </div> 
-            <div class="row-flexbox">
-                <div class="column-flexbox">
+            <div class="row-flexbox" id="page-1-text">
+                <div class="column-flexbox" id="main-title">
                     <span class="title-text">This website is awesome</span>
                     <div class="subtext">
                         This website has some subtext that goes here under the main 
                         title. It's smaller font and has a color that is lower contrast. 
                     </div>
                     <button class="def-button">
-                        Sign Up!
+                        Sign Up
                     </button>
                 </div>
+                <img id="landing-page-image" src="" alt="This is a placeholder for the image">
                 <!--Image will go here-->
             </div>
         </div>
        
-        <div class="column-flexbox">
+        <div class="column-flexbox" id="page-2">
+            <div id="page-2-title">Some Random Information</div>
+            <div class="row-flexbox" id="page-2-content">
+                <div class="column-flexbox" id="page-2-images">
+                    <img class="portrait" src="" alt="image goes here">
+                    <div class="portrait-subtext">This is some subtext under an illustration or image</div>
+                </div>
+                
+                <div class="column-flexbox" id="page-2-images">
+                    <img class="portrait" src="" alt="image goes here">
+                    <div class="portrait-subtext">This is some subtext under an illustration or image</div>
+                </div>
+               
+                <div class="column-flexbox" id="page-2-images">
+                    <img class="portrait" src="" alt="image goes here">
+                    <div class="portrait-subtext">This is some subtext under an illustration or image</div>
+                </div>
+              
+                <div class="column-flexbox" id="page-2-images">
+                    <img class="portrait" src="" alt="image goes here">
+                    <div class="portrait-subtext">This is some subtext under an illustration or image</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="column-flexbox" id="page-3">
+            <div class="quote" id="page-3-quote">
+                This is an inspiring quote, or a testimonial from a customer.
+                Maybe it's just filling up space, or maybe people will actually read it. Who knows?
+                All I know is that it looks nice.
+            </div>
+            <div class="heading-3" id="page-3-quote-subtext">- Thor, God of Thunder</p>
 
         </div>
         
-        <div class="column-flexbox">
-
-        </div>
-        
-        <div class="column-flexbox">
-
+        <div class="column-flexbox" id="page-4"> 
+            <div class="row-flexbox" id="call-to-action">
+                <div class="column-flexbox" id="call-to-action-text">
+                    <div class="heading-3" id="call-to-action-title">
+                        Call to action text with details 
+                    </div> 
+                    <div class="" id="call-to-action-subtext">
+                        Subtext to the call to action text
+                    </div>
+                </div>
+                <button class="def-button" id="sign-up-button-2">
+                    Sign Up
+                </button>
+            </div>
         </div>
     </body>
 </html>

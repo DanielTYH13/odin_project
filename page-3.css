@@ -1,0 +1,14 @@
+#page-3 {
+    align-items: center;
+    margin: 15vh;
+}
+
+#page-3-quote {
+    text-align: center;
+    width: 50vw
+}
+
+#page-3-quote-subtext { 
+    text-align: right;
+    width: 50vw;
+}

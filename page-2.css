@@ -1,0 +1,28 @@
+#page-2 {
+    align-items: center;
+    margin: 15vh;
+}
+
+#page-2-title {
+    font-size: 1.5em;
+    margin: 2vw;
+}
+
+#page-2-content {
+    width: 50vw;
+}
+
+#page-2-images{
+    flex: 1 1 auto;
+    margin: 1.2vw;
+}
+
+.portrait-subtext {
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.portrait {
+    width: auto;
+    height: 100px
+}
